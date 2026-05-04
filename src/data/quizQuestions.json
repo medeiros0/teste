@@ -1,0 +1,138 @@
+[
+  {
+    "id": "q1",
+    "question": "O consumo de álcool não prejudica a saúde vocal",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "o consumo de álcool principalmente em excesso, causa desidratação severa nas pregas vocias e irrita a mucosa da laringe."
+
+  },
+  {
+    "id": "q2",
+    "question": "Ter uma boa audição é imporante para qualidade vocal",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "Uma boa audição é fundamental para  avoz, ela ajuda perceber, ajustar e controlar a qualidade vocal, permitindo produizir os sons de forma mais adequada."
+  },
+  {
+    "id": "q3",
+    "question": "maça faz bem para a voz?",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim torna a saliva mais fluica e melhora a produção de voz, folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
+  },
+  {
+    "id": "q4",
+    "question": "fumar faz mal à voz?",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "o tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando irritação e inchaço, aumento de secreções, pigarro e tosse. Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+  },
+  {
+    "id": "q5",
+    "question": "Pastilhas e sprays melhoram a voz quando você sente rouquidão?",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "pastilhas anestésicas podem apenas esconder a dor na garganta, criando uma falsa sensação de melhora levando ao uso excessivo da voz.Alguns produtos podem irritar ainda mais as pregas vocais e alterar a saliva, prefira beber água ou chupar uma bala comum, pois o ato de engolir ajuda a aliviar o desconforto temporareamente ."
+  },
+  {
+    "id": "q6",
+    "question": "chá com limão e mel cura a voz?",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "Chá com limão e mel é frequentemente visto como algo que faz bem para a voz, mas essa ideia vem mais de tradições e crenças do que de evidência científica. Muitas pessoas associam essas misturas a melhora vocal, porém isso não significa que elas relamente tenhma efeito direto sobre a produção da voz."
+  },
+  {
+    "id": "q7",
+    "question": "gritar faz mal para a voz?",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "gritar faz mal para a voz pois exige um esforço excessivo das pregas vocais, aumentando o atrito e o impacto entre elas. Esse uso intenso pode causar: irritação e inchaço e desgaste da mucosa. Além disso, o hábito de gritar favorece o aparecimento de sintomas como roquidão e cansaço vocal, podedno evoluir para alterações mais persistente se mantido com frequência."
+  },
+  {
+    "id": "q8",
+    "question": "Sussurar melhora rouquidão.",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "Embora muitas pessoas pensem que sussurar descansa a voz, em vários casos o sussuro pode aumentar a tensão dos músculos da laringe e exigir mais esforço para produzir som. Isso pode irritar ainda mais as pregas vocais, especialmente quando já estão inflamadas ou cansadas."
+  },
+  {
+    "id": "q9",
+    "question": "Pigarrear ajuda a limpar a garganta sem causar problemas.",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "embora pareça aliviar momentaneamente, pigarrear com frequência provoca atrito entre as pregas vocais e pode irritar a largine. Esse hábito pode aumentra a sensação de secrecão ou incômodo, criando um ciclo repetitivo ."
+  },
+  {
+    "id": "q10",
+    "question": "Bebidas geladas ou muito quentes prejudicam a voz",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "No geral, mudanças bruscas de tempratura podem, sim, prejudicar a voz. No caso das bebias geladas ou muito quentes há um choque térmico no organismo, o que pode causar danos à saúde vocal."
+  },
+  {
+    "id": "q11",
+    "question": "o microfone pode ajudar a proteger a voz",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "O uso do microfone reduz a necessidade de aumento da intesidade vocal, minimizando o esforço das pregas vocais. Dessa forma, contribui para a prevenção da fadiga vocal e de possíveis lesões, sendo um importante recurso para profissionais da voz, especialmente em ambientes amplos ou ruidosos"
+  },
+  {
+    "id": "q12",
+    "question": "A voz pode sofrere alterações na gravidez e mentruação",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "As variações hormonais ao longo do ciclo mentrual e durante a gestação podem impactar o funcionamento do aparelho fonados, promovendo alterações na qualidade vocal, como instabilidade, fadiga e mudanças na extensão vocal"
+  },
+  {
+    "id": "q13",
+    "question": "Leite e chocolate podem prejudicar a voz",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "Alimentos como leite e chocolate causam expessamento da saliva e podem aumentra a produção de secreção no trato vocal. isso pode interferir negativamente na produção vocal, especialmente em indivíduis sensíveis "
+  },
+  {
+    "id": "q14",
+    "question": "Ambientes barulhentos prejudicam a voz.",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": true },
+      { "id": "fake", "label": "Fake", "correct": false }
+    ],
+    "explanation": "Ambientes com elevado nivel de ruído favorecem a compretição sonora, levando ao aumento da intensidade vocal e, consequentemente, ao maior esforço das pregas vocais, o que pode resultar em uma fadiga e riscos de lesões"
+  },
+  {
+    "id": "q15",
+    "question": "So precisa aquecer a voz,não precisa desaquecer.",
+    "options": [
+      { "id": "fato", "label": "Fato", "correct": false },
+      { "id": "fake", "label": "Fake", "correct": true }
+    ],
+    "explanation": "O aquecimento vocal prepara a musculutarua para o uso melhorando a flexibilidade e a eficiência da vibração das pregas vocais. Já o desaqueciento é igualmente importante, pois auxilia no retorno ao padrão vocal habitual, reduzindo tensões musculares e prevenindo fadiga e possçiveis lesões"
+  }
+]
