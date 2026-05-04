@@ -13,7 +13,8 @@
 }
 
 .quiz-section__skip-btn,
-.quiz-section__reset-btn {
+.quiz-section__reset-btn,
+.quiz-section__clear-btn {
   font: inherit;
   font-size: 0.9rem;
   font-weight: 600;
@@ -50,6 +51,19 @@
 .quiz-section__reset-btn:focus-visible {
   background: var(--color-accent-soft);
   border-color: var(--color-accent);
+  outline: none;
+}
+
+.quiz-section__clear-btn {
+  color: var(--color-text);
+  background: var(--color-bg);
+  border-color: var(--color-muted);
+}
+
+.quiz-section__clear-btn:hover,
+.quiz-section__clear-btn:focus-visible {
+  background: var(--color-surface);
+  border-color: var(--color-text);
   outline: none;
 }
 

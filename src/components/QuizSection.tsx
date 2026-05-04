@@ -13,6 +13,8 @@ const quizQuestions = quizRaw as QuizQuestion[];
  */
 export function QuizSection() {
   const [revealAll, setRevealAll] = useState(false);
+  /** Incrementar para remontar os cards e limpar respostas/aberturas locais. */
+  const [sessionKey, setSessionKey] = useState(0);
 
   const handleRevealAll = useCallback(() => {
     setRevealAll(true);
@@ -22,11 +24,17 @@ export function QuizSection() {
     setRevealAll(false);
   }, []);
 
+  const handleClearAnswers = useCallback(() => {
+    setRevealAll(false);
+    setSessionKey((k) => k + 1);
+  }, []);
+
   return (
     <SectionShell id="sec-10" title="Quiz interativo" sectionNumber={10}>
       <p className="quiz-section__intro">
         Cada afirmação é um <strong>Fato</strong> ou <strong>Fake</strong>. Abra o card, escolha e
-        leia a explicação. Pode também revelar todas as respostas de uma vez.
+        leia a explicação. Pode revelar todas as respostas ou{" "}
+        <strong>limpar as suas respostas</strong> para recomeçar.
       </p>
 
       <div className="quiz-section__toolbar">
@@ -43,11 +51,19 @@ export function QuizSection() {
             Voltar ao modo interativo
           </button>
         )}
+        <button type="button" className="quiz-section__clear-btn" onClick={handleClearAnswers}>
+          Limpar as minhas respostas
+        </button>
       </div>
 
       <div className="quiz-section__grid">
         {quizQuestions.map((item, index) => (
-          <QuizCard key={item.id} item={item} index={index} revealAnswers={revealAll} />
+          <QuizCard
+            key={`${item.id}-${sessionKey}`}
+            item={item}
+            index={index}
+            revealAnswers={revealAll}
+          />
         ))}
       </div>
     </SectionShell>
