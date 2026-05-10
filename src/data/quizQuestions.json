@@ -6,7 +6,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "o consumo de álcool principalmente em excesso, causa desidratação severa nas pregas vocias e irrita a mucosa da laringe."
+    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências: Rouquidão, esforço vocal excessivo."
 
   },
   {
@@ -16,7 +16,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "Uma boa audição é fundamental para  avoz, ela ajuda perceber, ajustar e controlar a qualidade vocal, permitindo produizir os sons de forma mais adequada."
+    "explanation": "Uma boa audição é fundamental para a voz, ela ajuda perceber, ajustar e controlar a qualidade vocal, permitindo produizir os sons de forma mais adequada."
   },
   {
     "id": "q3",
@@ -25,7 +25,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim torna a saliva mais fluica e melhora a produção de voz, folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
+    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim:\n<strong>°torna a saliva mais fluida; melhora a produção de voz;</strong>folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
   },
   {
     "id": "q4",
@@ -34,7 +34,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "o tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando irritação e inchaço, aumento de secreções, pigarro e tosse. Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+    "explanation": "o tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°irritação e inchaço;\n°aumento de secreções;\n°pigarro e tosse;</strong> Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
   },
   {
     "id": "q5",
@@ -61,7 +61,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "gritar faz mal para a voz pois exige um esforço excessivo das pregas vocais, aumentando o atrito e o impacto entre elas. Esse uso intenso pode causar: irritação e inchaço e desgaste da mucosa. Além disso, o hábito de gritar favorece o aparecimento de sintomas como roquidão e cansaço vocal, podedno evoluir para alterações mais persistente se mantido com frequência."
+    "explanation": "gritar faz mal para a voz pois exige um esforço excessivo das pregas vocais, aumentando o atrito e o impacto entre elas. Esse uso intenso pode causar:\n<strong>°irritação e inchaço;\n°desgaste da mucosa;</strong>Além disso, o hábito de gritar favorece o aparecimento de sintomas como roquidão e cansaço vocal, podedno evoluir para alterações mais persistente se mantido com frequência."
   },
   {
     "id": "q8",

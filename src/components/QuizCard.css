@@ -178,4 +178,5 @@
   margin: 0;
   color: var(--color-text);
   font-weight: 400;
+  white-space: pre-line;
 }

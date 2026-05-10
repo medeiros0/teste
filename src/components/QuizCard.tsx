@@ -104,21 +104,31 @@ export function QuizCard({ item, index, revealAnswers }: QuizCardProps) {
         </ul>
 
         {revealAnswers && correctOption && (
-          <div className="quiz-card__feedback quiz-card__feedback--reveal" role="status">
-            <strong>Resposta correta: {correctOption.label}</strong>
-            <p className="quiz-card__explanation">{item.explanation}</p>
-          </div>
-        )}
+  <div className="quiz-card__feedback quiz-card__feedback--reveal" role="status">
+    <strong>Resposta correta: {correctOption.label}</strong>
 
-        {showNormalFeedback && (
-          <div
-            className={`quiz-card__feedback ${isCorrect ? "quiz-card__feedback--ok" : "quiz-card__feedback--bad"}`}
-            role="status"
-          >
-            <strong>{isCorrect ? "Acertou!" : "Errou."}</strong>
-            <p className="quiz-card__explanation">{item.explanation}</p>
-          </div>
-        )}
+    <p
+      className="quiz-card__explanation"
+      dangerouslySetInnerHTML={{ __html: item.explanation }}
+    />
+    
+  </div>
+)}
+
+{showNormalFeedback && (
+  <div
+    className={`quiz-card__feedback ${isCorrect ? "quiz-card__feedback--ok" : "quiz-card__feedback--bad"}`}
+    role="status"
+  >
+    <strong>{isCorrect ? "Fato!" : "Fake."}</strong>
+
+    <p
+      className="quiz-card__explanation"
+      dangerouslySetInnerHTML={{ __html: item.explanation }}
+    />
+    
+  </div>
+)}
       </div>
     </article>
   );
