@@ -1,38 +1,27 @@
 /**
- * Área da imagem: até 650×906 px, integrada ao vidro da secção.
+ * Largura = 100% do bloco (igual aos cards). Altura contida para libertar espaço vertical.
  */
 .image-section__viewport {
-  --img-max-w: 650px;
-  --img-max-h: 906px;
-
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  min-height: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: var(--img-max-w);
-  margin-inline: auto;
-  min-height: 12rem;
-  max-height: min(
-    var(--img-max-h),
-    calc(100svh - var(--nav-height) - var(--img-shell-pad))
-  );
-  border-radius: 0;
+  align-items: flex-start;
   overflow: hidden;
   background-color: transparent;
-  transition: opacity 0.25s ease;
 }
 
 .image-section__img {
-  max-width: 100%;
-  max-height: min(
-    var(--img-max-h),
-    calc(100svh - var(--nav-height) - var(--img-shell-pad))
-  );
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  object-position: center;
   display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  /* Teto vertical: mais conteúdo visível na página; imagem escala com a largura do card */
+  max-height: min(48vh, 620px);
+  object-fit: contain;
+  object-position: center top;
 }
 
 .image-section__fallback {
@@ -40,8 +29,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  min-height: min(280px, 40svh);
+  padding: 1rem;
+  width: 100%;
+  min-height: 8rem;
+  max-height: min(36vh, 240px);
   text-align: center;
   font-size: 0.95rem;
   color: var(--color-muted);
@@ -66,4 +57,3 @@
   border-radius: 4px;
   border: none;
 }
-

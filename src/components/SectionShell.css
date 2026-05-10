@@ -1,13 +1,15 @@
 .section-shell {
   scroll-margin-top: var(--nav-height);
-  padding: var(--section-pad);
-  padding-bottom: clamp(1.5rem, 5vw, 3rem);
+  /* Largura total da viewport (com margem lateral mínima) */
+  padding: var(--section-pad) clamp(0.65rem, 3vw, 1.25rem);
+  padding-bottom: clamp(1rem, 4vw, 2rem);
 }
 
-/* Cartão integrado ao fundo: sem “painel” branco; o fundo do site vê-se através */
+/* Cartão integrado ao fundo: ocupa toda a largura útil */
 .section-shell__card {
-  max-width: 960px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   min-height: 0;
   background: transparent;
   backdrop-filter: none;
@@ -19,13 +21,15 @@
 }
 
 .section-shell__body {
-  padding: clamp(0.75rem, 2.5vw, 1.25rem) clamp(0.5rem, 2vw, 1rem);
+  width: 100%;
+  max-width: 100%;
+  padding: clamp(0.5rem, 2vw, 0.85rem) 0;
   background: transparent;
 }
 
 .section-shell__header {
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.35rem;
   border-bottom: none;
   background: transparent;
 }
@@ -41,6 +45,8 @@
 }
 
 .section-shell__content {
+  width: 100%;
+  max-width: 100%;
   min-height: 0;
   background: transparent;
 }
