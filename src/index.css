@@ -1,23 +1,28 @@
 /**
- * Estilos globais: variáveis, reset leve, scroll suave e compensação da navbar fixa.
+ * Estilos globais: fundo com imagem (camada .site-bg no index.html), scroll suave.
  */
 :root {
-  --color-bg: #f0f4f8;
-  --color-surface: #ffffff;
-  --color-text: #1a1d21;
-  --color-muted: #5c6570;
-  --color-accent: #1a73e8;
-  --color-accent-soft: #e8f0fe;
+  --color-bg: rgba(248, 250, 252, 0.5);
+  --color-surface: rgba(255, 255, 255, 0.12);
+  --color-text: #14181c;
+  --color-muted: #3d454d;
+  --color-accent: #2c5282;
+  --color-accent-soft: rgba(255, 255, 255, 0.45);
   --color-success: #0d8050;
-  --color-success-bg: #e6f4ea;
+  --color-success-bg: rgba(230, 244, 234, 0.85);
   --color-error: #c5221f;
-  --color-error-bg: #fce8e6;
-  --color-border: #dadce0;
+  --color-error-bg: rgba(252, 232, 230, 0.9);
+  --color-border: rgba(255, 255, 255, 0.35);
   --nav-height: 3.5rem;
   --section-pad: clamp(1rem, 4vw, 2rem);
   --radius-card: 12px;
-  --shadow-card: 0 1px 2px rgba(60, 64, 67, 0.25), 0 2px 6px rgba(60, 64, 67, 0.15);
+  --shadow-card: none;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  --img-shell-pad: 10rem;
+  --bg-blur: 6px;
+  --bg-overlay: rgba(245, 248, 252, 0.32);
+  /* Sobrescrito em main.tsx com import.meta.env.BASE_URL (deploy em subpasta) */
+  --site-bg-image: url("/background.jpeg");
 }
 
 *,
@@ -27,9 +32,10 @@
 }
 
 html {
+  min-height: 100%;
   scroll-behavior: smooth;
-  /* Alinha o alvo do scroll abaixo da navbar fixa */
   scroll-padding-top: var(--nav-height);
+  background-color: #2a3238;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -44,6 +50,11 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+
+  .site-bg__photo {
+    filter: none !important;
+    transform: none !important;
+  }
 }
 
 body {
@@ -53,19 +64,48 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: var(--color-text);
-  background: var(--color-bg);
+  background-color: transparent;
+}
+
+/* Irmão do #root: fica sempre atrás da aplicação */
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.site-bg__photo {
+  position: absolute;
+  /* Margem negativa: o blur “come” bordas; sem isto vê-se faixa sólida */
+  inset: calc(var(--bg-blur) * -1.5);
+  background-color: #3d474e;
+  background-image: var(--site-bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(var(--bg-blur));
+  transform: scale(1.06);
+  transform-origin: center center;
+}
+
+.site-bg__veil {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-overlay);
 }
 
 #root {
+  position: relative;
+  z-index: 1;
   min-height: 100vh;
 }
 
-/* Espaço no topo do conteúdo para não ficar sob a navbar */
 .page-content {
   padding-top: var(--nav-height);
 }
 
-/* Utilitário: texto só para tecnologias assistivas */
 .sr-only {
   position: absolute;
   width: 1px;

@@ -27,7 +27,6 @@ function App() {
             <ImageSection
               key={cfg.sectionNumber}
               sectionNumber={cfg.sectionNumber}
-              title={cfg.title}
               alt={cfg.alt}
             />
           );

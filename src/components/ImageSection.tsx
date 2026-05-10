@@ -5,25 +5,18 @@ import "./ImageSection.css";
 
 type ImageSectionProps = {
   sectionNumber: number;
-  title: string;
   alt: string;
 };
 
 type LoadState = { candidateIndex: number; allFailed: boolean };
 
-/** Dimensão máxima recomendada das artes (proporção mantida em ecrãs menores). */
 const IMAGE_MAX_W = 650;
 const IMAGE_MAX_H = 906;
 
 /**
- * Secção com imagem até 650×906 px, responsiva (contain, sem cortar).
- * Tenta vários nomes de ficheiro em `public/` até um carregar (ex.: secção8.png vs section8.png).
+ * Secção com imagem até 650×906 px; cabeçalho só para tecnologias assistivas.
  */
-export function ImageSection({
-  sectionNumber,
-  title,
-  alt,
-}: ImageSectionProps) {
+export function ImageSection({ sectionNumber, alt }: ImageSectionProps) {
   const id = `sec-${sectionNumber}`;
   const candidates = useMemo(
     () => getSectionImageCandidates(sectionNumber),
@@ -48,7 +41,7 @@ export function ImageSection({
   }, [candidates.length]);
 
   return (
-    <SectionShell id={id} title={title} sectionNumber={sectionNumber}>
+    <SectionShell id={id} title={alt} showHeader={false}>
       <div className="image-section__viewport">
         {!allFailed ? (
           <img
@@ -64,7 +57,7 @@ export function ImageSection({
           />
         ) : (
           <div className="image-section__fallback" role="alert">
-            <p>Não foi possível carregar a imagem desta secção.</p>
+            <p>Não foi possível carregar a imagem desta área.</p>
             <p className="image-section__fallback-hint">
               Coloque um ficheiro em <code>public/</code> com um destes nomes:{" "}
               <code>secção{sectionNumber}.png</code>, <code>secao{sectionNumber}.png</code> ou{" "}

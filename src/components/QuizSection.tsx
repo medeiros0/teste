@@ -30,7 +30,7 @@ export function QuizSection() {
   }, []);
 
   return (
-    <SectionShell id="sec-10" title="Quiz interativo" sectionNumber={10}>
+    <SectionShell id="sec-10" title="Quiz: Fato ou Fake">
       <p className="quiz-section__intro">
         Cada afirmação é um <strong>Fato</strong> ou <strong>Fake</strong>. Abra o card, escolha e
         leia a explicação. Pode revelar todas as respostas ou{" "}

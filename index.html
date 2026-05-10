@@ -8,6 +8,11 @@
     <title>One-page — 13 secções</title>
   </head>
   <body>
+    <!-- Fundo fixo fora do React: evita problemas de empilhamento com #root::before -->
+    <div class="site-bg" aria-hidden="true">
+      <div class="site-bg__photo"></div>
+      <div class="site-bg__veil"></div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
