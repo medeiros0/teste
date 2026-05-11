@@ -1,5 +1,5 @@
 /**
- * Largura = 100% do bloco (igual aos cards). Altura contida para libertar espaço vertical.
+ * Largura = 100% do bloco (largura útil do card). Altura segue a proporção da imagem.
  */
 .image-section__viewport {
   width: 100%;
@@ -18,8 +18,6 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  /* Teto vertical: mais conteúdo visível na página; imagem escala com a largura do card */
-  max-height: min(48vh, 620px);
   object-fit: contain;
   object-position: center top;
 }

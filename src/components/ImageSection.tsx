@@ -10,11 +10,8 @@ type ImageSectionProps = {
 
 type LoadState = { candidateIndex: number; allFailed: boolean };
 
-const IMAGE_MAX_W = 650;
-const IMAGE_MAX_H = 906;
-
 /**
- * Secção com imagem até 650×906 px; cabeçalho só para tecnologias assistivas.
+ * Secção com imagem à largura do bloco (card); cabeçalho só para tecnologias assistivas.
  */
 export function ImageSection({ sectionNumber, alt }: ImageSectionProps) {
   const id = `sec-${sectionNumber}`;
@@ -49,8 +46,6 @@ export function ImageSection({ sectionNumber, alt }: ImageSectionProps) {
             className="image-section__img"
             src={src}
             alt={alt}
-            width={IMAGE_MAX_W}
-            height={IMAGE_MAX_H}
             onError={handleImgError}
             decoding="async"
             loading="lazy"

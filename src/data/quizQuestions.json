@@ -25,7 +25,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim:\n<strong>°torna a saliva mais fluida;\n°melhora a produção de voz;</strong>folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
+    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim:\n<strong>°torna a saliva mais fluida;\n°gitmelhora a produção de voz;</strong>folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
   },
   {
     "id": "q4",
