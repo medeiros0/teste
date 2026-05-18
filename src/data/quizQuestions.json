@@ -6,7 +6,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências: Rouquidão, esforço vocal excessivo."
+    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências: Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
 
   },
   {
@@ -20,21 +20,21 @@
   },
   {
     "id": "q3",
-    "question": "maça faz bem para a voz?",
+    "question": "Maça faz bem para a voz?",
     "options": [
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "maças possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim:\n<strong>°torna a saliva mais fluida;\n°gitmelhora a produção de voz;</strong>folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
+    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências:</strong> Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
   },
   {
     "id": "q4",
-    "question": "fumar faz mal à voz?",
+    "question": "Fumar faz mal à voz?",
     "options": [
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "o tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°irritação e inchaço;\n°aumento de secreções;\n°pigarro e tosse;</strong> Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong> Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
   },
   {
     "id": "q5",
@@ -43,11 +43,11 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "pastilhas anestésicas podem apenas esconder a dor na garganta, criando uma falsa sensação de melhora levando ao uso excessivo da voz.Alguns produtos podem irritar ainda mais as pregas vocais e alterar a saliva, prefira beber água ou chupar uma bala comum, pois o ato de engolir ajuda a aliviar o desconforto temporareamente ."
+    "explanation": "Pastilhas anestésicas podem apenas esconder a dor na garganta, criando uma falsa sensação de melhora levando ao uso excessivo da voz.Alguns produtos podem irritar ainda mais as pregas vocais e alterar a saliva, prefira beber água ou chupar uma bala comum, pois o ato de engolir ajuda a aliviar o desconforto temporareamente ."
   },
   {
     "id": "q6",
-    "question": "chá com limão e mel cura a voz?",
+    "question": "Chá com limão e mel cura a voz?",
     "options": [
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
@@ -56,12 +56,12 @@
   },
   {
     "id": "q7",
-    "question": "gritar faz mal para a voz?",
+    "question": "Gritar faz mal para a voz?",
     "options": [
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "gritar faz mal para a voz pois exige um esforço excessivo das pregas vocais, aumentando o atrito e o impacto entre elas. Esse uso intenso pode causar:\n<strong>°irritação e inchaço;\n°desgaste da mucosa;</strong>Além disso, o hábito de gritar favorece o aparecimento de sintomas como roquidão e cansaço vocal, podedno evoluir para alterações mais persistente se mantido com frequência."
+    "explanation": "Gritar faz mal para a voz pois exige um esforço excessivo das pregas vocais, aumentando o atrito e o impacto entre elas. Esse uso intenso pode causar:\n<strong>°Irritação e inchaço;\n°Desgaste da mucosa;</strong>Além disso, o hábito de gritar favorece o aparecimento de sintomas como roquidão e cansaço vocal, podedno evoluir para alterações mais persistente se mantido com frequência."
   },
   {
     "id": "q8",
@@ -79,7 +79,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "embora pareça aliviar momentaneamente, pigarrear com frequência provoca atrito entre as pregas vocais e pode irritar a largine. Esse hábito pode aumentra a sensação de secrecão ou incômodo, criando um ciclo repetitivo ."
+    "explanation": "Embora pareça aliviar momentaneamente, pigarrear com frequência provoca atrito entre as pregas vocais e pode irritar a largine. Esse hábito pode aumentra a sensação de secrecão ou incômodo, criando um ciclo repetitivo ."
   },
   {
     "id": "q10",
@@ -92,7 +92,7 @@
   },
   {
     "id": "q11",
-    "question": "o microfone pode ajudar a proteger a voz",
+    "question": "O microfone pode ajudar a proteger a voz",
     "options": [
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
