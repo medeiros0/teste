@@ -6,7 +6,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências: Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
+    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências:</strong> Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
 
   },
   {
@@ -25,7 +25,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências:</strong> Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
+    "explanation": "Maçãs possuem uma enzima chamada pectina, que ajuda a limpar a boca e a faringe, assim:\n<strong>°Torna a saliva mais fluida;\n°Melhora a produção da voz;\n</strong>Folhas verdes e algumas frutas também têm efeito adstringente e contribuem para esse processo."
   },
   {
     "id": "q4",
@@ -34,7 +34,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong> Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong>Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
   },
   {
     "id": "q5",
