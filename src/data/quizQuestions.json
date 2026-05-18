@@ -6,7 +6,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe.\n<strong>°Reduz a lubrificação natural;\n°Consequências:</strong> Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
+    "explanation": "o consumo de álcool principalmente em excesso causa desidratação severa nas pregas vocais e irrita a mucosa da laringe;\n<strong>°Reduz a lubrificação natural;\n°Consequências:</strong> Rouquidão, esforço vocal excessivo (perda de controle de volume e tom)."
 
   },
   {
@@ -16,7 +16,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "Uma boa audição é fundamental para a voz, ela ajuda perceber, ajustar e controlar a qualidade vocal, permitindo produizir os sons de forma mais adequada."
+    "explanation": "Uma boa audição é fundamental para a voz, ela ajuda a perceber, ajustar e controlar a qualidade vocal, permitindo produzir os sons de forma mais adequada."
   },
   {
     "id": "q3",
@@ -34,7 +34,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando;\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong>Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando:\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong>Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
   },
   {
     "id": "q5",
@@ -43,7 +43,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "Pastilhas anestésicas podem apenas esconder a dor na garganta, criando uma falsa sensação de melhora levando ao uso excessivo da voz.Alguns produtos podem irritar ainda mais as pregas vocais e alterar a saliva, prefira beber água ou chupar uma bala comum, pois o ato de engolir ajuda a aliviar o desconforto temporareamente ."
+    "explanation": "Pastilhas anestésicas podem apenas esconder a dor na garganta, criando uma falsa sensação de melhora levando, ao uso excessivo da voz. Alguns produtos podem irritar ainda mais as pregas vocais e alterar a saliva, prefira beber água ou chupar uma bala comum, pois o ato de engolir ajuda a aliviar o desconforto temporareamente ."
   },
   {
     "id": "q6",
@@ -52,7 +52,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "Chá com limão e mel é frequentemente visto como algo que faz bem para a voz, mas essa ideia vem mais de tradições e crenças do que de evidência científica. Muitas pessoas associam essas misturas a melhora vocal, porém isso não significa que elas relamente tenhma efeito direto sobre a produção da voz."
+    "explanation": "Chá com limão e mel é frequentemente visto como algo que faz bem para a voz, mas essa ideia vem mais de tradições e crenças do que de evidência científica. Muitas pessoas associam essas misturas a melhora vocal, porém isso não significa que elas relamente tenham efeito direto sobre a produção da voz."
   },
   {
     "id": "q7",
@@ -79,7 +79,7 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "Embora pareça aliviar momentaneamente, pigarrear com frequência provoca atrito entre as pregas vocais e pode irritar a largine. Esse hábito pode aumentra a sensação de secrecão ou incômodo, criando um ciclo repetitivo ."
+    "explanation": "Embora pareça aliviar momentaneamente, pigarrear com frequência provoca atrito entre as pregas vocais e pode irritar a largine. Esse hábito pode aumentra a sensação de secrecão ou incômodo, criando um ciclo repetitivo."
   },
   {
     "id": "q10",
@@ -106,7 +106,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "As variações hormonais ao longo do ciclo mentrual e durante a gestação podem impactar o funcionamento do aparelho fonados, promovendo alterações na qualidade vocal, como instabilidade, fadiga e mudanças na extensão vocal"
+    "explanation": "As variações hormonais ao longo do ciclo menstrual e durante a gestação podem impactar o funcionamento do aparelho fonados, promovendo alterações na qualidade vocal, como instabilidade, fadiga e mudanças na extensão vocal"
   },
   {
     "id": "q13",
@@ -133,6 +133,6 @@
       { "id": "fato", "label": "Fato", "correct": false },
       { "id": "fake", "label": "Fake", "correct": true }
     ],
-    "explanation": "O aquecimento vocal prepara a musculutarua para o uso melhorando a flexibilidade e a eficiência da vibração das pregas vocais. Já o desaqueciento é igualmente importante, pois auxilia no retorno ao padrão vocal habitual, reduzindo tensões musculares e prevenindo fadiga e possçiveis lesões"
+    "explanation": "O aquecimento vocal prepara a musculatura para o uso melhorando a flexibilidade e a eficiência da vibração das pregas vocais. Já o desaquecimento é igualmente importante, pois auxilia no retorno ao padrão vocal habitual, reduzindo tensões musculares e prevenindo fadiga e possiveis lesões"
   }
 ]
