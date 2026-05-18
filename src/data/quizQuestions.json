@@ -34,7 +34,7 @@
       { "id": "fato", "label": "Fato", "correct": true },
       { "id": "fake", "label": "Fake", "correct": false }
     ],
-    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando:\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong>Alem disso, é um dos principais responsavei pelo desnvolvimento de câncer de laringe e de pulmão."
+    "explanation": "O tabagismo prejudica as pregas vocais e todo o sistema respiratorio, causando:\n<strong>°Irritação e inchaço;\n°Aumento de secreções;\n°Pigarro e tosse;</strong>Alem disso, é um dos principais responsavei pelo desenvolvimento de câncer de laringe e de pulmão."
   },
   {
     "id": "q5",

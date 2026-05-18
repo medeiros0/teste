@@ -120,7 +120,7 @@ export function QuizCard({ item, index, revealAnswers }: QuizCardProps) {
     className={`quiz-card__feedback ${isCorrect ? "quiz-card__feedback--ok" : "quiz-card__feedback--bad"}`}
     role="status"
   >
-    <strong>{isCorrect ? "Fato!" : "Fake."}</strong>
+    <strong>{correctOption?.label}!</strong>
 
     <p
       className="quiz-card__explanation"
