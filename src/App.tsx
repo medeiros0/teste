@@ -1,11 +1,12 @@
 import { Navbar } from "./components/Navbar";
 import { ImageSection } from "./components/ImageSection";
 import { QuizSection } from "./components/QuizSection";
+import { VideoSection } from "./components/VideoSection";
 import { IMAGE_SECTIONS } from "./config/imageSections";
+import { PAGE_SECTIONS } from "./config/pageSections";
 
 /**
- * Página única: 13 secções com âncoras (#sec-1 … #sec-13).
- * Secções 1–9 e 11–13: imagem; secção 10: quiz com dados em JSON.
+ * Página única: secções 1–14 (imagem), vídeo após a 5, quiz na 10.
  */
 function App() {
   const imageByNum = new Map(
@@ -16,16 +17,26 @@ function App() {
     <>
       <Navbar />
       <main className="page-content">
-        {Array.from({ length: 13 }, (_, i) => {
-          const n = i + 1;
-          if (n === 10) {
+        {PAGE_SECTIONS.map((item) => {
+          if (item.kind === "quiz") {
             return <QuizSection key="sec-10" />;
           }
-          const cfg = imageByNum.get(n);
+          if (item.kind === "video") {
+            return (
+              <VideoSection
+                key={item.id}
+                id={item.id}
+                youtubeId={item.youtubeId}
+                startSeconds={item.startSeconds}
+                title={item.title}
+              />
+            );
+          }
+          const cfg = imageByNum.get(item.sectionNumber);
           if (!cfg) return null;
           return (
             <ImageSection
-              key={cfg.sectionNumber}
+              key={`sec-${cfg.sectionNumber}`}
               sectionNumber={cfg.sectionNumber}
               alt={cfg.alt}
             />

@@ -1,16 +1,18 @@
+import {
+  PAGE_SECTIONS,
+  getPageSectionNavId,
+  getPageSectionNavLabel,
+} from "./pageSections";
+
 /**
- * Lista única usada pela Navbar: âncoras #sec-1 … #sec-13.
- * Rótulos só com número — navegação mantém-se no cabeçalho.
+ * Lista usada pela Navbar: mesma ordem que PAGE_SECTIONS.
  */
 export type NavSection = {
   id: string;
   label: string;
 };
 
-export const NAV_SECTIONS: NavSection[] = Array.from({ length: 13 }, (_, i) => {
-  const n = i + 1;
-  return {
-    id: `sec-${n}`,
-    label: String(n),
-  };
-});
+export const NAV_SECTIONS: NavSection[] = PAGE_SECTIONS.map((section) => ({
+  id: getPageSectionNavId(section),
+  label: getPageSectionNavLabel(section),
+}));
